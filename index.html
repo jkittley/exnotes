@@ -44,6 +44,38 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92261425-6"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-92261425-6');
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+    "palette": {
+        "popup": {
+        "background": "#000000",
+        "text": "#ffffff"
+        },
+        "button": {
+        "background": "transparent",
+        "text": "#cc3acf",
+        "border": "#cc3acf"
+        }
+    },
+    "content": {
+        "href": "https://exnotes.app/privacy.html"
+    }
+    })});
+    </script>
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="30">
